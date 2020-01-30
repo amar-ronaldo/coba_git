@@ -1,0 +1,6 @@
+---
+deployment:
+tasks:
+- export DEPLOYPATH=/home/tarbiya3/public_html/coba_git
+- /bin/cp -r * $DEPLOYPATH
+
